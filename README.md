@@ -1,8 +1,13 @@
 ## CECS 478 Project
 
-You can use the [editor on GitHub](https://github.com/staticparsley/CECS_478/edit/master/README.md) to maintain and preview the content for your website in Markdown files.
+This project involves creating an end-to-end encrypted chat to be done in multiple phases: 
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
+1. Setup your aws LAMP Ubuntu server
+2. A simple HTTPS server
+3. Encapsulation/Decapsulation
+4. Design: Project requirements and design documentation
+5. JWT and RESTful
+6. Client side
 
 ### Markdown
 
