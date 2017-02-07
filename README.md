@@ -8,6 +8,7 @@ This project involves creating an end-to-end encrypted chat to be done in multip
 4. Design: Project requirements and design documentation
 5. JWT and RESTful
 6. Client side
+7. Impeach Trump
 
 ### Markdown
 
