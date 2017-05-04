@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Bucket
+   type = "0"
+   version = "2.0">
+   <Breakpoints>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "f-Humanity/ChatVC.swift"
+            timestampString = "515558979.717778"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "16"
+            endingLineNumber = "16"
+            landmarkName = "ChatVC"
+            landmarkType = "3">
+            <Locations>
+               <Location
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "f_Humanity.ChatVC.__deallocating_deinit"
+                  moduleName = "f-Humanity"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/ahmedalsadiq/Documents/f-Humanity/f-Humanity/ChatVC.swift"
+                  timestampString = "515558991.016721"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "0"
+                  endingLineNumber = "0"
+                  offsetFromSymbolStart = "4">
+               </Location>
+               <Location
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "f_Humanity.ChatVC.init (nibName : Swift.Optional&lt;Swift.String&gt;, bundle : Swift.Optional&lt;__ObjC.Bundle&gt;) -&gt; f_Humanity.ChatVC"
+                  moduleName = "f-Humanity"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/ahmedalsadiq/Documents/f-Humanity/f-Humanity/ChatVC.swift"
+                  timestampString = "515558991.022302"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "18"
+                  endingLineNumber = "18"
+                  offsetFromSymbolStart = "70">
+               </Location>
+               <Location
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "f_Humanity.ChatVC.__allocating_init (nibName : Swift.Optional&lt;Swift.String&gt;, bundle : Swift.Optional&lt;__ObjC.Bundle&gt;) -&gt; f_Humanity.ChatVC"
+                  moduleName = "f-Humanity"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/ahmedalsadiq/Documents/f-Humanity/f-Humanity/ChatVC.swift"
+                  timestampString = "515558991.024881"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "0"
+                  endingLineNumber = "0"
+                  offsetFromSymbolStart = "23">
+               </Location>
+               <Location
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "f_Humanity.ChatVC.__allocating_init (coder : __ObjC.NSCoder) -&gt; Swift.Optional&lt;f_Humanity.ChatVC&gt;"
+                  moduleName = "f-Humanity"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/ahmedalsadiq/Documents/f-Humanity/f-Humanity/ChatVC.swift"
+                  timestampString = "515558991.026794"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "0"
+                  endingLineNumber = "0"
+                  offsetFromSymbolStart = "4">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "f-Humanity/ChatVC.swift"
+            timestampString = "515560753.994219"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "39"
+            endingLineNumber = "39"
+            landmarkName = "ChatVC"
+            landmarkType = "3">
+         </BreakpointContent>
+      </BreakpointProxy>
+   </Breakpoints>
+</Bucket>
