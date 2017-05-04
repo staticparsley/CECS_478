@@ -102,9 +102,9 @@ app.post('/sendMessage', function(req,res) {
 		res.send({'response': 'Error', 'message': "Wrong inputs"})
 	}
 	else {
-		const decoded = ''
+		var decoded = ''
 		decoded = jwt.verify(req.headers["token"], secret);
-		db.put(rec,{message: msg, stamp: time})
+		db.put(data.rec,{message: data.msg, stamp: data.time})
 		
 	}
 })
@@ -117,7 +117,7 @@ app.post('/getMessage', function(req,res) {
 			res.send({'response': 'Error', 'message': "Wrong inputs"})
 		}
 		else {
-			const decoded = ''
+			var decoded = ''
 			decoded = jwt.verify(req.headers["token"], jwtkey);
 			db.get(rec,{message: msg, stamp: time})
 			
