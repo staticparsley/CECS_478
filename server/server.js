@@ -26,8 +26,8 @@ app.get("/", (req,res) => {
 
 app.post('/register', function(req,res) {
 	
-	const usern = req.body.username
-	const passw = req.body.password
+	var usern = req.body.username
+	var passw = req.body.password
 	if(!usern || !passw) {
 		res.json({success: false, msg: 'Please enter username and password'})
 	}
@@ -35,12 +35,11 @@ app.post('/register', function(req,res) {
 		scrypt.hash(passw, {"N":16,"r":1,"p":1},64,"", function(err, res) {
 			console.log(result.toString("hex"));
 		});
-		
-		     res.send("creating user");
-	      	 db.put(username, {passwrd: passw , unread: []});
+
+	      	 db.put(usern, {passwrd: passw , unread: []});
 
 			const payload = {
-				sub: uname,
+				sub: usern,
 				exp: Math.floor(Date.now() / 1000) + (60 * 60)
 			}
 					
@@ -57,22 +56,22 @@ app.post('/register', function(req,res) {
 	);                   
 
 app.post('/login', (req, res) => {
-  const username = req.body.username
-  const passw = req.body.password
+  var usern = req.body.username
+  var passw = req.body.password
   
-  db.get(username, (err, user) => {
+  db.get(usern, (err, user) => {
     if (err) {
       console.log(err)
       res.send('invalid username')
     } else {
-      const passHash = user.passwordHash
+      const passHash = passw.passwordHash
       scrypt.verifyHash(passw, passHash, err => {
         if (err) {
           console.log(err)
           res.send('invalid password')
         }
         const payload = {
-          sub: username,
+          sub: usern,
           exp: Math.floor(Date.now() / 1000) + (60 * 60) // 1 hr
         }
         jwt.sign(payload, jwtkey, (err, token) => {
